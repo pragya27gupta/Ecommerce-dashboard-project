@@ -65,12 +65,14 @@ The dataset is relational and consists of multiple connected tables.
 Main relationships:
 
 customers
-→ orders
-→ order_items
-  ├── products
-  ├── sellers
-  ├── payments
-  └── reviews
+   ↓
+orders
+   ↓
+order_items
+   ├── products
+   ├── sellers
+   ├── payments
+   └── reviews
 
 ### Relationship Summary
 
