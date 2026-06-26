@@ -29,7 +29,7 @@ SELECT
 FROM orders;
 
 -- Query 4: Total Customers
-SELECT COUNT(DISTINCT customer_id) AS total_customers
+SELECT COUNT(DISTINCT customer_unique_id) AS total_customers
 FROM customers;
 
 -- Query 5: Total Revenue
