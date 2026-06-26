@@ -31,7 +31,7 @@ The business aims to understand:
 - Python
 - Pandas
 - Matplotlib
-- Power BI / Tableau
+- Tableau
 - GitHub
 
 ---
